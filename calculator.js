@@ -6,7 +6,7 @@ let calculation = localStorage.getItem('calculation') || '';
       displayCalculation();
       localStorage.setItem('calculation', calculation);
     }
-
+    
     function displayCalculation() {
       document.querySelector('.js-calculation').innerHTML = calculation;
     }

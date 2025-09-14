@@ -1,3 +1,13 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: larger;
+  font-weight: bolder;
+  background-image: url("/calculator_1309/images/background_img_for_calculator.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .row1, .row2, .row3, .row4 {
   background-color: rgba(31, 31, 31, 0.832);
@@ -58,14 +68,6 @@ background-color:  rgb(246, 153, 4);
   cursor: pointer;  
 }
 
-body {
-  background-color: black;
-  color: white;
-  font-family: Arial;
-  font-size: larger;
-  font-weight: bolder;
-}
-
 .overalldiv {
   display: flex;
   flex-direction: column;
@@ -74,14 +76,13 @@ body {
 }
 
 .lowerdiv {
- background-color: rgb(13, 227, 247);
- padding: 20px;
- border-radius: 30px;
+ padding: 15px;
+ border: 1px solid rgb(104, 103, 100);
+ border-radius: 10px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-.p {
-  background-color: white;
+.js-calculation {
   color: black;
-  border-radius: 5px;
+  font-size: xx-large;
 }
-
